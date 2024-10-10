@@ -1,0 +1,41 @@
+<html>
+<body>
+
+
+<link rel="stylesheet" href="/static/cal.css">
+
+
+<div class=caldiv>
+
+<h1>Calculator</h1>
+<form method="post">
+    {% csrf_token %}
+    <label>Value 1</label>
+    <input type="text" name="num1" required><br><br>
+
+    <br>
+    
+    <label>Select Operator</label>
+    <select name="opr">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+    </select><br><br>
+    <br>
+    
+
+    
+    <label>Value 2</label>
+    <input type="text" name="num2" required><br><br>
+    
+    
+    <button type="submit">Calculate</button><br><br>
+    <br>
+    <label>Output</label>
+    <input type="text" value='{{c}}' name="output" readonly>
+
+    
+</form>
+</div>
+
+</body>

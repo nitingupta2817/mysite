@@ -1,0 +1,165 @@
+h1 {
+    color: rgb(228, 228, 230);
+    background-color: black;
+    text-align: center;
+
+}
+
+img {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+
+nav ul li a {
+    color: white
+}
+
+nav ul li {
+ display: incline-block;
+ line-height: 80px;
+ margin: 0 5px;
+ display: inline-block;
+ font-family: 'Lucida Sans';
+ color: white;
+
+}
+
+nav{
+    background-color: black;
+}
+
+a{
+    color: white;
+    
+}
+a:link{
+    text-decoration: none;
+    
+}
+
+
+
+
+
+  .product{
+    background-color: red;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+
+
+.gridproductd{
+  width:100%;
+  overflow:auto;
+}
+
+header {
+    color: rgb(11, 9, 60);
+    text-align: center;
+    text-overflow: ellipsis;
+    margin: auto;
+    width: auto;
+    padding: 5px;
+    font-size: large;
+    font-weight: 100;
+    font-family: Verdana;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+.ankush{
+    text-align: center;
+    background-color: black;
+    color: white;
+    float: right;
+}
+
+div.mycontainer {
+    width:100%;
+    overflow:auto;
+  }
+
+  div.mycontainer div {
+    width:33%;  
+    float:left;
+  }
+
+
+article{
+    color: black;
+    padding: 40px;
+    align-content: flex-start;
+}
+
+
+.ankush{
+    width: 40%;
+    height: 400px;
+    float: left;
+    font-family: serif;
+    font-size: large;
+    padding: 40px;
+    white-space: 100px;
+    background-color: white;
+    border-radius: 100%;
+      
+    
+}
+
+.whyspine{
+    text-align: center;
+    background-color: #3CBC8D;
+    color: black;
+
+}
+
+
+form{
+    border-style: groove;
+    color: black;
+    text-align: center;
+    
+}
+
+footer{
+
+    text-align: center;
+
+}
+
+#grad {
+    background-image: linear-gradient(red, yellow);
+  }
+
+button{
+    background-color: blueviolet;
+    color: white;
+    size: 70px;
+    font-style: italic;
+}
+
+input[type=text] {
+    background-color: #3CBC8D;
+    color: white;
+  }
+
+.ank{
+    height: 5%;
+
+}
+
+body{
+    background-color: #3CBC8D;
+}
+
+

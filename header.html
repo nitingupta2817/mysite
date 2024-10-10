@@ -1,0 +1,16 @@
+<link rel="stylesheet" href="/static/creative.css">
+<header>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li class="{% if request.path == '/about/' %}active{% endif %}"><a href="{% url 'about' %}">About</a></li>        
+            <li><a href="/userform">userform</a></li>
+            <li><a href="/ankushpage">ankushpage</a></li>
+            <li><a href="/creative">creative</a></li>
+            <li><a href="/calculator">calculator</a></li>
+            <li><a href="/marksheet">markesheet</a></li>
+            <li><a href="/practice">practice</a></li>
+
+        </ul>
+    </nav>
+</header>

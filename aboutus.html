@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% extends "base.html" %}
+    {% block content %}
+<head>
+    hello {{output}}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .team-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .team-images img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 10px;
+            border-radius: 50%;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            font-size: 1.8em;
+            margin-bottom: 10px;
+        }
+        .section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>About Us</h1>
+        </div>
+
+        <div class="team-images">
+            <img src="team1.jpg" alt="Team Member 1">
+            <img src="team2.jpg" alt="Team Member 2">
+            <img src="team3.jpg" alt="Team Member 3">
+            <img src="team4.jpg" alt="Team Member 4">
+        </div>
+
+        <div class="section">
+            <h2>Our Culture</h2>
+            <p>At [Your Company Name], we believe in fostering a culture of innovation, collaboration, and inclusivity. Our team is our greatest asset, and we are committed to creating a positive work environment where everyone feels valued and empowered to contribute their best.</p>
+            <p>We prioritize work-life balance, professional growth, and open communication, ensuring that our team members are not only successful in their careers but also in their personal lives.</p>
+        </div>
+
+        <div class="section">
+            <h2>About Us</h2>
+            <p>[Your Company Name] was founded with the mission to [insert mission statement or brief company history]. Over the years, we have grown into a dynamic team of professionals dedicated to [insert core business activity or industry focus].</p>
+            <p>Our goal is to deliver exceptional [products/services] that exceed our clients' expectations. We are driven by our core values of [insert core values, e.g., integrity, excellence, customer satisfaction, etc.], and we strive to make a positive impact in everything we do.</p>
+        </div>
+    </div>
+</body>
+</html>
+{% endblock  %}
+

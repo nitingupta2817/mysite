@@ -1,0 +1,151 @@
+body{
+    background-color: rgb(242, 240, 238);
+    
+    
+}
+
+.shar{
+    
+    float: left;
+    height: 50%;
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.ank{
+    
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    border-radius: 10px;
+    margin-left: 15%;
+
+    
+}
+
+.story{
+    float: right;
+    height: 50%;
+    width: 50%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 10%;
+    border-radius: 1000px;
+}
+
+.par{
+    background-color: black;
+    padding-top: 5%;
+    color: white;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.para{
+    margin-left: 10%;
+    margin-bottom: 5%;
+
+}
+
+
+.maintest{
+ 
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background-color: rgb(229, 225, 225);
+    
+}
+
+
+
+.test2 {
+    height: 370px;
+    width: 335px;
+    background-color: rgb(52, 73, 50);
+    margin: 60px;
+    display: inline-block;
+    border-radius: 5px;
+    
+   
+    
+}
+
+.you{
+    height: 175px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.maintest p{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+.maintest h1{
+    color: white;
+    text-align: center;
+    font-weight: 200;
+
+
+}
+
+h3{
+    text-align: center;
+    color: rgb(253, 246, 246);
+    font-size: larger;
+    border-style: groove;
+    margin-right: 20%;
+    margin-left: 20%;
+    background-color: rgb(105, 164, 129);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    color: white;
+}
+
+
+
+nav{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+a{
+    color: white;
+    font-family: 'Trebuchet MS';
+}
+
+
+a:link{
+    text-decoration: none;
+}
+
+
+article{
+
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.h1head{
+    margin-left: 300px;
+    color: rgb(251, 162, 8);
+    font-family: Cambria;
+}

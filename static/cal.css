@@ -1,0 +1,23 @@
+.caldiv{
+    background-color: white;
+}
+
+
+
+html{
+    background-color: white;
+}
+
+.caldiv{
+    margin-left: 20px;
+}
+
+h1{
+    background-color: black;
+    color: white;
+    padding: 50px;
+    width: 50%;
+    text-align: center;
+    margin-left: 20%;
+ 
+}
