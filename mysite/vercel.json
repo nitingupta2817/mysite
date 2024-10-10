@@ -13,14 +13,26 @@
       "src": "build_files.sh",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "mysite/staticfiles" // Adjust based on where your static files are built.
+        "distDir": "mysite"  // Assuming your static files are built here.
       }
     }
   ],
   "routes": [
     {
-      "src": "/(.*)",
-      "dest": "mysite/wsgi.py" // Route all requests to the WSGI app
+      "src": "/",
+      "dest": "mysite/index.html"
+    },
+    {
+      "src": "/about",
+      "dest": "mysite/aboutus.html"
+    },
+    {
+      "src": "/contact",
+      "dest": "mysite/marksheet.html"
+    },
+    {
+      "src": "(.*)",
+      "dest": "mysite/$1"  // Catch-all for other files in the mysite directory.
     }
   ]
 }
